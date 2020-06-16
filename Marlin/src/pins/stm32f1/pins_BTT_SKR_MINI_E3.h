@@ -93,11 +93,11 @@
 #define HEATER_0_PIN                        PC8   // "HE"
 #define HEATER_BED_PIN                      PC9   // "HB"
 
-#ifdef SKR_MINI_E3_V2
-  #define FAN_PIN                           PC6
-#else
-  #define FAN_PIN                           PA8   // "FAN0"
-#endif
+//#ifdef SKR_MINI_E3_V2
+//  #define FAN_PIN                           PC6
+//#else
+//  #define FAN_PIN                           PA8   // "FAN0"
+//#endif
 
 //
 // USB connect control
