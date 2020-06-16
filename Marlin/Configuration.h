@@ -483,7 +483,7 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-3
+ 
   #define DEFAULT_Kp 16.88
   #define DEFAULT_Ki 0.89
   #define DEFAULT_Kd 79.86
@@ -1029,7 +1029,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define MIN_PROBE_EDGE 5
+#define PROBING_MARGIN 5
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 10000
